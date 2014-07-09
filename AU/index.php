@@ -11,7 +11,7 @@
   <body>
 
   <?php 
-    $page = "home.html"
+    $page = "home.html";
   ?>
 
     <nav>
@@ -19,7 +19,7 @@
         <li>
             <a href="#">Home</a>
             <?php 
-              $page = "home.html"
+              $page = "home.html";
             ?>
         </li>
         <li>
@@ -37,7 +37,7 @@
       </ul>
     </nav>
 
-    <?php include $page ?>
+    <?php include $page; ?>
 
     <footer id="grad">
         <!-- First part of the footer -->
